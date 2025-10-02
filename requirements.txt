@@ -1,0 +1,8 @@
+crewai
+crewai_tools
+langchain
+langchain_community
+langchain-ollama
+duckduckgo-search
+langchain-google-genai
+streamlit
