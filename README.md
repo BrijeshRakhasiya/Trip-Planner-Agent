@@ -1,45 +1,57 @@
-# AI-Powered Trip Planner
+# ✈️ AI-Powered Trip Planner
 
-An intelligent travel planning application built with CrewAI, Streamlit, and Ollama LLM that creates personalized travel itineraries based on user preferences.
+An intelligent travel planning app built with **CrewAI**, **Streamlit**, and **Ollama LLM**, designed to generate personalized travel itineraries based on user preferences.
 
-## Features
+---
 
-- **AI-Powered Planning**: Uses multiple AI agents (Location Expert, Guide Expert, Planner Expert) to gather and compile travel information
-- **Comprehensive Itineraries**: Includes accommodations, transportation, food recommendations, local events, and budget planning
-- **Web Search Integration**: Leverages DuckDuckGo search for real-time travel information
-- **Streamlit Interface**: User-friendly web interface for inputting travel details
-- **Downloadable Plans**: Export travel plans as text files
-- **Multi-language Support**: Responds in French for French-speaking destinations
+## 🚀 Features
 
-## Architecture
+- 🧠 **AI-Powered Planning**: Multi-agent system (Location, Guide, Planner Experts) for holistic travel insights  
+- 🗺️ **Comprehensive Itineraries**: Covers accommodations, transport, food, events, and budgeting  
+- 🌐 **Live Web Search**: DuckDuckGo integration for real-time travel data  
+- 🖥️ **Streamlit Interface**: Intuitive UI for entering travel details  
+- 📄 **Downloadable Plans**: Export itineraries as text files  
+- 🌍 **Multi-language Support**: French responses for Francophone destinations  
 
-The application consists of three main AI agents:
+---
 
-1. **Location Expert**: Handles travel logistics including accommodations, visa requirements, transportation, weather, and cost of living
-2. **Guide Expert**: Provides city-specific recommendations for attractions, food, and activities based on user interests
-3. **Planner Expert**: Compiles all information into a structured, day-by-day itinerary
+## 🧩 Architecture
 
-## Installation
+Three specialized AI agents collaborate to deliver a complete travel plan:
 
-### Prerequisites
+| Agent            | Role                                                                 |
+|------------------|----------------------------------------------------------------------|
+| 🏨 Location Expert | Manages logistics: visas, weather, transport, accommodation, costs |
+| 🎯 Guide Expert    | Recommends attractions, food, and activities based on interests     |
+| 📅 Planner Expert  | Compiles all data into a structured, day-by-day itinerary           |
 
-- Python 3.8+
-- Ollama installed and running locally
-- Llama 3.2 model downloaded in Ollama (`ollama pull llama3.2`)
+---
+
+## ⚙️ Installation
+
+### 📋 Prerequisites
+
+- Python 3.8+  
+- Ollama installed and running locally  
+- Llama 3.2 model pulled via:  
+  ```bash
+  ollama pull llama3.2
 
 ### Setup
 
-1. Clone or download the project files
-2. Install dependencies:
-   ```bash
+- Clone the repo
+```
+   git clone https://github.com/BrijeshRakhasiya/Trip-Planner-Agent.git
+```
+-  Install dependencies
+```
    pip install -r requirements.txt
-   ```
-3. Ensure Ollama is running with the Llama 3.2 model:
-   ```bash
+```
+-  Start Ollama
+```
    ollama serve
    ollama pull llama3.2
-   ```
-
+```
 ## Usage
 
 1. Run the Streamlit application:
@@ -91,13 +103,13 @@ The application consists of three main AI agents:
 ## Screenshots
 
 ### Main Interface
-![Main Interface](git_assets/1.png)
+![Main Interface](git_assests/1.png)
 
 ### Travel Plan Generation
-![Plan Generation](git_assets/2.png)
+![Plan Generation](git_assests/2.png)
 
 ### Sample Output
-![Sample Output](git_assets/3.png)
+![Sample Output](git_assests/3.png)
 
 ## Sample Output
 
@@ -119,21 +131,29 @@ The application uses the following configurations:
 - Full output: Enabled
 - Delegation: Disabled (agents work independently)
 
-## Troubleshooting
+## 🧯 Troubleshooting
 
 - Ensure Ollama is running before starting the application
 - Check that the Llama 3.2 model is downloaded
 - Verify all dependencies are installed
-- For web search issues, ensure internet connectivity
+- 🌐 For web search issues, ensure internet connectivity
 
-## Future Enhancements
+## 🌟 Future Enhancements
 
 - Support for multiple LLMs
 - Integration with booking APIs
-- Mobile app version
 - Multi-language interface
 - Real-time flight/hotel pricing
 
-## License
+## 📄 License
 
-This project is for educational purposes. Please check individual library licenses for commercial use.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙋‍♂️ Author
+
+**Brijesh Rakhasiya**  
+AI/ML Engineer · Data Scientist · Problem Solver
+
+---
+
+**👨‍💻 Developed by Brijesh Rakhasiya**
